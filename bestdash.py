@@ -1,4 +1,3 @@
-
 from dash import Dash, html, dcc,Input,Output
 import dash
 import plotly.express as px
@@ -15,7 +14,6 @@ colors = {
     'text': {'GreyTheme ':'#324359','BlueTheme':'#004d00'},
     'header':{'GreyTheme ':'#191970','BlueTheme':'#004d00'}
 }
-
 
 
 df = pd.read_csv('crimedata.csv')
